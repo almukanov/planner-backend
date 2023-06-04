@@ -6,7 +6,7 @@ plugins {
 
 group = "com.almukanov.backend.planner"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_HIGHER
+java.sourceCompatibility = JavaVersion.VERSION_18
 
 configurations {
 	compileOnly {
