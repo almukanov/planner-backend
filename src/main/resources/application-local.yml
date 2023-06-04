@@ -3,4 +3,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: 1234
-
+server:
+  ssl:
+    enabled: true
+    key-store-type: PKCS12
+    key-store: classpath:ssl/almukanov_ssl.pfx
+    key-store-password: 1234
