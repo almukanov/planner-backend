@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### SSL ###
+almukanov_ssl.pfx
